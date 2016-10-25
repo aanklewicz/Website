@@ -14,6 +14,6 @@
 <!-- CP24: This row of the table displays a crawl of data similar to on 24 hour news programs. -->
 
 	<tr height="15%">
-		<td colspan="2"><?php include 'cp24.php'; ?></td>
+		<td colspan="2" align="center"><font size="12"><?php include 'cp24.php'; ?></font></td>
 	</tr>
 </table>
