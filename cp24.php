@@ -17,3 +17,11 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 ?>
+<script>
+    var val = "<?php echo $result ?>";
+    document.getElementById("txt").innerHTML = val;
+</script>
+
+<div id='txt'>
+    
+</div>
